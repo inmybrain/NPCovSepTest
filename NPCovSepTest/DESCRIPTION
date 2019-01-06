@@ -13,8 +13,8 @@ Author: Seongoh Park [aut, cre],
     Sanghan Lee [aut]
 Maintainer: Seongoh Park <seongohpark6@gmail.com>
 Description: Perform a nonparametric test on separability of a covariance matrix using permutation procedures.
-Depends: R (>= 3.3.0)
-Imports: doRNG, doMC, foreach, stats, utils, Rcpp (>= 0.12.19)
+Depends: R (>= 3.3.0), doRNG, doMC, foreach
+Imports: stats, utils, Rcpp (>= 0.12.19)
 LinkingTo: Rcpp, RcppArmadillo
 Suggest: mvtnorm
 License: GPL-3
