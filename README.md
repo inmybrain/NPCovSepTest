@@ -44,6 +44,8 @@ Max_PermTest(Y, 2, 3)
 Twost_PermTest(Y, 2, 3)
 ```
 
+All results indicate there is no strong evidence to reject the null, i.e. separability of the covariance matrix.
+
 Notes
 -----
 
