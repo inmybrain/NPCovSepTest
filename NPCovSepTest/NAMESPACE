@@ -1,0 +1,3 @@
+useDynLib(NPCovSepTest)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")

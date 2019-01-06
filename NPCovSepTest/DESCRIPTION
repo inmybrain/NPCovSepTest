@@ -1,0 +1,23 @@
+Package: NPCovSepTest
+Type: Package
+Title: Nonparametric Permutation Test on Covariance Separability
+Version: 2.0
+Date: 2019-01-06
+Authors@R: c(person("Seongoh", "Park", email = "seongohpark6@gmail.com", role = c("aut", "cre")), 
+    person("Johan", "Lim", email = "johanlim@snu.ac.kr", role = "aut"),
+    person("Xinlei", "Wang", email = "swang@SMU.edu", role = "aut"),
+    person("Sanghan", "Lee", email = "SangHan.Lee@NKI.rfmh.org", role = "aut"))
+Author: Seongoh Park [aut, cre],
+    Johan Lim [aut],
+    Xinlei Wang [aut],
+    Sanghan Lee [aut]
+Maintainer: Seongoh Park <seongohpark6@gmail.com>
+Description: Perform a nonparametric test on separability of a covariance matrix using permutation procedures.
+Depends: R (>= 3.3.0)
+Imports: doRNG, doMC, foreach, stats, utils, Rcpp (>= 0.12.19)
+LinkingTo: Rcpp, RcppArmadillo
+Suggest: mvtnorm
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
