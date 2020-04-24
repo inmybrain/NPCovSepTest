@@ -20,7 +20,7 @@ using namespace Rcpp;
 Rcpp::List getLRT_cpp(
     arma::mat Y, 
     int p, 
-    int q, 
+    int q,
     double eps,
     arma::mat Mean
 ){
